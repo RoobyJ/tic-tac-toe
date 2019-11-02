@@ -26,8 +26,8 @@ class Mark:
         if turnO:
             pygame.draw.circle(surface, self.colorO, (self.x, self.y), self.radius, 5)  # draw a circle
         elif not turnO:
-            pygame.draw.line(surface, self.colorX, (self.x - 80, self.y - 80), (self.x + 80, self.y + 80), 5)
-            pygame.draw.line(surface, self.colorX, (self.x - 80, self.y + 80), (self.x + 80, self.y - 80), 5)
+            pygame.draw.line(surface, self.colorX, (self.x - self.radius, self.y - self.radius), (self.x + self.radius, self.y + self.radius), 5)
+            pygame.draw.line(surface, self.colorX, (self.x - self.radius, self.y + self.radius), (self.x + self.radius, self.y - self.radius), 5)
 
 
 # draws grid
