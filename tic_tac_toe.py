@@ -178,7 +178,7 @@ def marking(pos):
         player_turn = True
 
 
-# the main func
+# the main function
 def main():
     global turnO, player_turn, player_first
     turnO = True
