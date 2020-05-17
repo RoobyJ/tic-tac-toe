@@ -295,6 +295,7 @@ def main():
                 message_box('X won!', 'Play again...')
                 reset()
 
+        # if no one wins
         elif check_draw():
             message_box('No one won!', 'Play again...')
             reset()
